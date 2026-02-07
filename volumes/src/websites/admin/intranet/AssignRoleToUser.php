@@ -6,7 +6,9 @@ include_once '../../shared/lib/ldap_support.inc.php';
 include_once '../../shared/lib/db.php';
 include_once '../../shared/lib/login-session.inc.php';
 
-$rbac = checkLoginOrFail([Permission_AdminPanel_AddUserToRole]);;
+$rbac = checkLoginOrFail([Permission_AdminPanel_AddUserToRole]);
+check2faOrValidate();
+
 $lnk = ConnectAndCheckLDAP();
 
 if (isset($_POST['user']) && isset($_POST['role'])) {
@@ -20,7 +22,7 @@ $user = GetUserDataFromDN($lnk, $user_dn);
 if ($user == null) {
   die('Incorrect parameters.');
 }
-$uid                 = $user['uid'][0];
+$uid                 = $user['dn'];
 $existingRBACForUser = new RBACSupport($uid);
 $existingRBACForUser->process();
 

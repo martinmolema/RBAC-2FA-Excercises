@@ -1,16 +1,10 @@
 <?php
 include_once '../../../shared/lib/RBACSupport.php';
 include_once '../../../shared/lib/ldap_support.inc.php';
+include_once '../../shared/lib/login-session.inc.php';
 
-$rbac = new RBACSupport($_SERVER["AUTHENTICATE_UID"]);
-if (!$rbac->process()) {
-    die('Could not connect to RBAC server.');
-}
-if (!$rbac->has(Permission_AdminPanel_RevokeUserFromRole)) {
-    echo "Revoke user from role: missing permissions\n";
-    http_response_code(406);
-    die();
-}
+$rbac = checkLoginOrFail([Permission_AdminPanel_RevokeUserFromRole]);
+check2faOrValidate();
 
 $lnk = ConnectAndCheckLDAP();
 

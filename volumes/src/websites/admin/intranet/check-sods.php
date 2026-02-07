@@ -34,8 +34,8 @@ if ($results !== false && $results['count'] > 0) {
   for ($i = 0; $i < $count; $i++) {
     // get one record from the result
     $record = $results[$i];
-    if (isset($record['uid'])) {
-      $uid = $record['uid'][0];
+    if (isset($record['dn'])) {
+      $uid = $record['dn'];
 
       // make an LDAP-support object for this user
       $rbac = new RBACSupport($uid);
