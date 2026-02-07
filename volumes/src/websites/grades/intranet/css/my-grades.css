@@ -1,0 +1,23 @@
+section.grades {
+    & table {
+        border-collapse: collapse;
+
+        & caption {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        & tbody tr {
+            td { padding: 5px; border-bottom: 1px solid black}
+            & td:first-child { width: 10em}
+            & td:nth-child(2) { width: 20em}
+            & td:nth-child(3) { width: 5em; text-align: right}
+            & td:nth-child(4) { width: 5em; text-align: right}
+        }
+
+        & tfoot tr {
+            & td:first-child { font-weight: bold;}
+            & td:nth-child(2) { text-align: right;}
+        }
+    }
+}

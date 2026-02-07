@@ -1,0 +1,91 @@
+version: 1
+
+dn: cn=Peter Paardekoper,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Peter Paardekoper
+sn: Paardekoper
+uid: ppaardekoper
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Laura Jansen,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Laura Jansen
+sn: Jansen
+uid: ljansen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Thomas de Vries,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Thomas de Vries
+sn: de Vries
+uid: tdevries
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Sophie Bakker,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Sophie Bakker
+sn: Bakker
+uid: sbakker
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Mark Visser,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Mark Visser
+sn: Visser
+uid: mvisser
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Emma Smits,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Emma Smits
+sn: Smits
+uid: esmits
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Kevin Mulder,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Kevin Mulder
+sn: Mulder
+uid: kmulder
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Noa de Boer,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Noa de Boer
+sn: de Boer
+uid: ndeboer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Jasper Meijer,ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Jasper Meijer
+sn: Meijer
+uid: jmeijer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=

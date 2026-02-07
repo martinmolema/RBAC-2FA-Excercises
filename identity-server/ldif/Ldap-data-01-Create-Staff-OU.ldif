@@ -1,0 +1,23 @@
+version: 1
+
+dn: ou=Staff,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Staff
+
+dn: ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: ICT Support
+
+dn: ou=Marketing,ou=Staff,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Marketing
+
+
+dn: ou=HRM,ou=Staff,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Marketing
+

@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=Marketing managers,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Marketing managers

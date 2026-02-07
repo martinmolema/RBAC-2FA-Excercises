@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=Grades Teachers,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Grades Teachers

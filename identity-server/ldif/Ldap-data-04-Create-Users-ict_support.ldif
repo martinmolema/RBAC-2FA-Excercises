@@ -1,0 +1,152 @@
+version: 1
+
+
+dn: cn=Jan Jansen,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Jan Jansen
+sn: Jansen
+uid: jjansen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Eva Sanders,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Eva Sanders
+sn: Sanders
+uid: esanders
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Pieter Hoekstra,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Pieter Hoekstra
+sn: Hoekstra
+uid: phoekstra
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Anouk Willems,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Anouk Willems
+sn: Willems
+uid: awillems
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Koen Post,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Koen Post
+sn: Post
+uid: kpost
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Mieke Bos,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Mieke Bos
+sn: Bos
+uid: mbos
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Bart Dekker,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Bart Dekker
+sn: Dekker
+uid: bdekker
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Laura Mulder,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Laura Mulder
+sn: Mulder
+uid: lmulder
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Wim Smit,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Wim Smit
+sn: Smit
+uid: wsmit
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Sanne van Dijk,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Sanne van Dijk
+sn: van Dijk
+uid: svandijk
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Jeroen Meijer,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Jeroen Meijer
+sn: Meijer
+uid: jmeijer2
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Kim Kuipers,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Kim Kuipers
+sn: Kuipers
+uid: kkuipers
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Mark Hendriks,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Mark Hendriks
+sn: Hendriks
+uid: mhendriks
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Iris de Boer,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Iris de Boer
+sn: de Boer
+uid: ideboer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Tom Visser,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Tom Visser
+sn: Visser
+uid: tvisser
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c89d72ba-6dd7-4972-9e98-0f204868d60f" name="Grades.docker" url="http://grades.docker/intranet/">
+        <fileTransfer mountedRoot="C:\sources\NHLS\RBAC-example-websites\volumes\src\websites\grades" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

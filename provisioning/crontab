@@ -1,0 +1,1 @@
+*/3 * * * * /bin/bash -c /app/run-sync.sh

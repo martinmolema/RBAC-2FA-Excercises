@@ -1,0 +1,59 @@
+main {
+    & article {
+        & section.welcome {
+            & span.role {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+form label {
+    width: 9em;
+    display: inline-block;
+}
+
+section.news {
+    & div.items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid darkgray;
+            width: 25vw;
+
+            & div.story-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                & img {
+                    max-width:128px;
+                }
+            }
+
+            & h2 {
+                margin-top: 0;
+                margin-bottom: 2px;
+                font-size:1.2rem;
+            }
+
+            & .datetime {
+                margin:0;
+                font-style: italic;
+            }
+            & .audience {
+                font-weight: bold;
+                color:darkgray;
+            }
+
+        }
+
+    }
+}

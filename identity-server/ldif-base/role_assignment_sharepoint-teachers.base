@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=SharePoint Teachers,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: SharePoint Teachers

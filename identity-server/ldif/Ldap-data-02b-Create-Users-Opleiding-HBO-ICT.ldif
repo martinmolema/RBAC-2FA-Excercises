@@ -1,0 +1,592 @@
+version: 1
+
+dn: cn=Tom Bakker,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Tom Bakker
+sn: Bakker
+uid: tbakker
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Lisa Meijer,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Lisa Meijer
+sn: Meijer
+uid: lmeijer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Joris van Dijk,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Joris van Dijk
+sn: Dijk
+uid: jvandijk
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Emma de Boer,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Emma de Boer
+sn: Boer
+uid: edeboer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Noah Visser,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Noah Visser
+sn: Visser
+uid: nvisser
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Liam Smit,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Liam Smit
+sn: Smit
+uid: lsmit
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Julia Kuipers,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Julia Kuipers
+sn: Kuipers
+uid: jkuipers
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Daan Hendriks,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Daan Hendriks
+sn: Hendriks
+uid: dhendriks
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Eva Mulder,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Eva Mulder
+sn: Mulder
+uid: emulder
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Milan Dekker,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Milan Dekker
+sn: Dekker
+uid: mdekker
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Sara Brouwer,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Sara Brouwer
+sn: Brouwer
+uid: sbrouwer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Finn Hoekstra,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Finn Hoekstra
+sn: Hoekstra
+uid: fhoekstra
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Nina Vos,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Nina Vos
+sn: Vos
+uid: nvos
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Sem Schouten,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Sem Schouten
+sn: Schouten
+uid: sschouten
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Lotte van Leeuwen,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Lotte van Leeuwen
+sn: Leeuwen
+uid: lvanleeuwen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Teun Post,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Teun Post
+sn: Post
+uid: tpost
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Fleur Willems,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Fleur Willems
+sn: Willems
+uid: fwillems
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Ruben van der Meer,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Ruben van der Meer
+sn: Meer
+uid: rvdmeer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Isabel Bos,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Isabel Bos
+sn: Bos
+uid: ibos
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Thijs Jacobs,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Thijs Jacobs
+sn: Jacobs
+uid: tjacobs
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Iris Sanders,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Iris Sanders
+sn: Sanders
+uid: isanders
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Guus Blok,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Guus Blok
+sn: Blok
+uid: gblok
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Nora Hoek,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Nora Hoek
+sn: Hoek
+uid: nhoek
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Mees Verhoeven,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Mees Verhoeven
+sn: Verhoeven
+uid: mverhoeven
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Luca Zwart,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Luca Zwart
+sn: Zwart
+uid: lzwart
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Sanne Martens,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Sanne Martens
+sn: Martens
+uid: smartens
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Anne van Loon,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Anne van Loon
+sn: Loon
+uid: avanloon
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Joep de Lange,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Joep de Lange
+sn: Lange
+uid: jdelange
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Lieke van der Linden,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Lieke van der Linden
+sn: Linden
+uid: lvdlinden
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Gijs Peeters,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Gijs Peeters
+sn: Peeters
+uid: gpeeters
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Maud Kramer,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Maud Kramer
+sn: Kramer
+uid: mkramer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Job Hendriksen,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Job Hendriksen
+sn: Hendriksen
+uid: jhendriksen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Roos Verbeek,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Roos Verbeek
+sn: Verbeek
+uid: rverbeek
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Evi de Koning,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Evi de Koning
+sn: Koning
+uid: edekoning
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Bas Timmer,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Bas Timmer
+sn: Timmer
+uid: btimmer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Yara Dijkstra,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Yara Dijkstra
+sn: Dijkstra
+uid: ydijkstra
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Tijn de Ridder,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Tijn de Ridder
+sn: Ridder
+uid: tderidder
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Zoë Schipper,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Zoë Schipper
+sn: Schipper
+uid: zschipper
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Vince de Vos,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Vince de Vos
+sn: Vos
+uid: vdevos
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Fay van Gerven,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Fay van Gerven
+sn: Gerven
+uid: fvangerven
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Quinn de Haan,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Quinn de Haan
+sn: Haan
+uid: qdehaan
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Hugo Vermeulen,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Hugo Vermeulen
+sn: Vermeulen
+uid: hvermeulen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Bo Jansen,ou=Students,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Bo Jansen
+sn: Jansen
+uid: bjansen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Pieter de Wit,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Pieter de Wit
+sn: de Wit
+uid: pdewit
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Anouk Hendriks,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Anouk Hendriks
+sn: Hendriks
+uid: ahendriks
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Koen Bos,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Koen Bos
+sn: Bos
+uid: kbos
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Mieke Mulder,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Mieke Mulder
+sn: Mulder
+uid: mmulder
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Bart Visser,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Bart Visser
+sn: Visser
+uid: bvisser
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Sanne de Boer,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Sanne de Boer
+sn: de Boer
+uid: sdeboer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Jeroen van Dijk,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Jeroen van Dijk
+sn: van Dijk
+uid: jvandijk
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Kim Meijer,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Kim Meijer
+sn: Meijer
+uid: kmeijer
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Mark Janssen,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Mark Janssen
+sn: Janssen
+uid: mjanssen
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Iris Hoekstra,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Iris Hoekstra
+sn: Hoekstra
+uid: ihoekstra
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Tom Willems,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Tom Willems
+sn: Willems
+uid: twillems
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Diana Dekker,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Diana Dekker
+sn: Dekker
+uid: ddekker
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Bas Post,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Bas Post
+sn: Post
+uid: bpost
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Floor Blok,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Floor Blok
+sn: Blok
+uid: fblok
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Luc Sanders,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Luc Sanders
+sn: Sanders
+uid: lsanders
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+
+dn: cn=Lara Schouten,ou=Teachers,ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Lara Schouten
+sn: Schouten
+uid: lschouten
+userPassword:: e0NSWVBUfSQ1JGI5WHY4VU1QJGF0akZEMmVtTFpLZE0xQlAvYlBOVTlqcGFpODQwVS9XU0swdGhTQkhYbzE=
+

@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=HRM,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: HRM

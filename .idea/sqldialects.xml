@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/dbserver/CreateDatabase-and-seed.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/hrm/CreateDatabase-and-seed.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/volumes/src/websites/admin/intranet/audittrail.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/volumes/src/websites/shared/lib/audittrail.lib.php" dialect="GenericSQL" />
+  </component>
+</project>

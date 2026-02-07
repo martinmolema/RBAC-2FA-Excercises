@@ -1,0 +1,44 @@
+article.form {
+    display: flex;
+    flex-direction: row;
+
+    & .form-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        height: 50vh;
+    }
+
+    & .form-column {
+        display: flex;
+        flex-direction: column;
+    }
+    & fieldset {
+        margin: 10px;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+   #current-user-list {
+       max-height: 50vh;
+       overflow-y: auto;
+   }
+}
+
+
+form label {
+    width: 9em;
+    display: inline-block;
+}
+
+form select {
+    margin-top: 10px;
+    height: 100%;
+}
+
+form button[type=submit] {
+    margin-top: 10px;
+}
+

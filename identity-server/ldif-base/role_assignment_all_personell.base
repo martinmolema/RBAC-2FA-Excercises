@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=All Personell,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: All Personell

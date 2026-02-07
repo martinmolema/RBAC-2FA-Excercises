@@ -1,0 +1,35 @@
+section.my-info,
+section.ldap-groups,
+section.ldap-permissions {
+    max-width: 80vw;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+section.my-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    & img {
+        max-height: 128px;
+        border-radius: 30%;
+    }
+}
+
+section.ldap-permissions {
+    & table {
+        border-collapse: collapse;
+        & tr td {
+            border-bottom: 1px solid black;
+            padding:4px;
+        }
+    }
+}

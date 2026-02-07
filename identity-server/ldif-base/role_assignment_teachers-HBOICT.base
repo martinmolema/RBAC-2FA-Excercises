@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=Teachers HBO-ICT,ou=opleidingen,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Teachers HBO-ICT

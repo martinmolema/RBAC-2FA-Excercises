@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=Teachers ADCSS,ou=opleidingen,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Teachers ADCSS

@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteBase /
+
+ServerSignature Off
+Header always unset Server
+
+Header always set X-Frame-Options "DENY"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set X-Content-Type-Options "nosniff"
+Header unset X-PoweredBy
+
+
+ErrorDocument 301 "Moved permanently"
+ErrorDocument 302 "Moved"
+ErrorDocument 401 "Not allowed"
+ErrorDocument 403 "Not allowed"
+ErrorDocument 404 "Page Not found"
+ErrorDocument 406 "Not Acceptable"
+ErrorDocument 500 "Server Error"
+
+Header always set Content-Security-Policy  "default-src 'self' ;frame-ancestors 'none' ;connect-src 'self' ;script-src 'self';style-src 'self' https://fonts.googleapis.com  https://fonts.gstatic.com ;img-src 'self' data:;frame-src 'none' ;form-action 'self'; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com"

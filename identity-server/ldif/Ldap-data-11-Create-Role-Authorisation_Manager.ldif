@@ -1,0 +1,10 @@
+version: 1
+
+dn: cn=Authorisation Manager,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Authorisation Manager
+uniqueMember: cn=Jan Jansen,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+uniqueMember: cn=Jeroen Meijer,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+uniqueMember: cn=Tom Visser,ou=ICT Support,ou=Staff,dc=NHLStenden,dc=com
+

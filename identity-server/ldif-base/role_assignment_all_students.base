@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=All Students,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: All Students

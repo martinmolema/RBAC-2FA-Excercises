@@ -1,0 +1,16 @@
+section.gradelist {
+    & table {
+        border-collapse: collapse;
+
+        & caption {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        & tr {
+            td {
+                padding: 5px;
+                border-bottom: 1px solid black
+            }
+        }
+    }
+}

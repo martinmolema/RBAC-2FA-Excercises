@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=ICT Support,ou=roles,dc=NHLStenden,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: ICT Support

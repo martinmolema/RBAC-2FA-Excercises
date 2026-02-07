@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+
+    margin:0;
+    & article {
+        margin:0;
+        & section {
+            margin: 0;
+        }
+    }
+}
+section.my-info,
+section.ldap-groups,
+section.ldap-permissions {
+    max-width: 80vw;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+section.my-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    & img {
+        max-height: 128px;
+        border-radius: 30%;
+    }
+}
+
+button a {
+    font-family: inherit;
+    text-decoration: none;
+    color:black;
+}

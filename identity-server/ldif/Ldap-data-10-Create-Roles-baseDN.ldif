@@ -1,0 +1,13 @@
+version: 1
+
+dn: ou=roles,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: roles
+
+dn: ou=opleidingen,ou=roles,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: opleidingen
+
+

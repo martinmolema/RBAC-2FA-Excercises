@@ -1,0 +1,14 @@
+main {
+    & article {
+        & section.welcome {
+            & span.role {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+form label {
+    width: 9em;
+    display: inline-block;
+}

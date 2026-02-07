@@ -1,0 +1,17 @@
+version: 1
+
+dn: ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Opleidingen
+
+dn: ou=Students, ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Students
+
+
+dn: ou=Teachers, ou=Opleidingen,dc=NHLStenden,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Teachers

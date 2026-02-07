@@ -1,0 +1,118 @@
+services:
+  iam-example-webserver:
+    # In the subfolder ./php/ there is a Dockerfile which can be used to further build the container and RUN scripts
+    build: ./webserver/
+    container_name: iam-example-webserver
+    hostname: webserver
+    links:
+      - iam-example-db-server
+      - iam-example-identity-server
+    networks:
+      - iam-example
+    ports:
+      - '80:80'
+    expose:
+      - '80'
+      - '9003'
+    working_dir: /app
+    # XDEBUG options can be set in the php.ini file in this directory
+    volumes:
+      - type: bind
+        source: ./volumes/src/websites
+        target: /var/www/
+
+  iam-example-identity-server:
+    # In the subfolder ./php/ there is a Dockerfile which can be used to further build the container and RUN scripts
+    build: identity-server/
+    container_name: iam-example-identity-server
+    hostname: identityserver
+    networks:
+      - iam-example
+    ports:
+      - '389:389'
+    expose:
+      - '389'
+    extra_hosts:
+      - "iam-identity-server.docker:127.0.0.1"
+    working_dir: /app
+    volumes:
+      - type: bind
+        source: volumes/ldap
+        target: /etc.slapd
+      - slap-data:/var/lib/ldap
+
+  iam-example-db-server:
+    # https://hub.docker.com/_/mariadb/
+    build: ./dbserver/
+    container_name: iam-example-db-server
+    hostname: dbserver
+    networks:
+      - iam-example
+    working_dir: /app
+    volumes:
+      - mariadb-data:/var/lib/mysql
+      - type: bind
+        source: ./volumes/src/dbserver
+        target: /app
+    ports:
+      - '3308:3306' # Use 3308 to prevent already installed MySQL native installs
+    expose:
+      - 3308
+    environment:
+      MARIADB_ROOT_PASSWORD: test1234!
+
+  iam-example-hrmdb-server:
+    # https://hub.docker.com/_/mariadb/
+    build: ./hrm/
+    container_name: iam-example-hrm-server
+    hostname: hrmdbserver
+    networks:
+      - iam-example
+    working_dir: /app
+    volumes:
+      - hrm-data:/var/lib/mysql
+      - type: bind
+        source: ./volumes/src/hrm
+        target: /app
+    ports:
+      - '3307:3306' # Use 3307 to prevent already installed MySQL native installs
+    expose:
+      - 3307
+    environment:
+      MARIADB_ROOT_PASSWORD: test1234!
+
+  iam-example-provisioning-server:
+    build: ./provisioning/
+    container_name: userprovisioning
+    hostname: userprovisioning
+    networks:
+      - iam-example
+    volumes:
+      - type: bind
+        source: ./volumes/src/user-provisioning
+        target: /app/logs
+
+  iam-example-ldap-gui:
+    image: osixia/phpldapadmin:latest
+    # image: phpldapadmin/phpldapadmin # has login problems!
+    container_name: phpldapadmin
+    environment:
+      #LDAP_HOST: iam-example-identity-server
+      PHPLDAPADMIN_LDAP_HOSTS: iam-example-identity-server
+      PHPLDAPADMIN_HTTPS: "false"
+      LDAP_ADMIN_PASSWORD: test12345!
+    networks:
+      - iam-example
+    ports:
+      - "8080:80"
+    depends_on:
+      - iam-example-identity-server
+
+networks:
+  iam-example:
+    driver: bridge
+
+volumes:
+  mariadb-data:
+  hrm-data:
+  slap-data:
