@@ -1,7 +1,7 @@
 <?php
 include_once '../../../shared/lib/RBACSupport.php';
 include_once '../../../shared/lib/ldap_support.inc.php';
-include_once '../../shared/lib/login-session.inc.php';
+include_once '../../../shared/lib/login-session.inc.php';
 
 $rbac = checkLoginOrFail([Permission_AdminPanel_RevokeUserFromRole]);
 check2faOrValidate();

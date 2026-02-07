@@ -3,7 +3,7 @@ include_once 'db.php';
 
 function LogAuditRecord(string $category, string $code, $level, string $description): void
 {
-    $username = $_SERVER['PHP_AUTH_USER'];
+    $username = $_SESSION["username"];
     try {
         $db = ConnectDatabaseIAM();
 

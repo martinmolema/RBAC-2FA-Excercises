@@ -3,21 +3,10 @@ include_once '../../shared/lib/login-session.inc.php';
 include_once '../../shared/lib/RBACSupport.php';
 include_once '../../shared/partials/header.php';
 include_once '../../shared/lib/db.php';
+include_once '../../shared/lib/login-session.inc.php';
 
-session_start();
+$rbac = checkLoginOrFail([Permission_AdminPanel_Manage_RolePermissions]);;
 check2faOrValidate();
-
-$rbac = new RBACSupport($_SERVER["AUTHENTICATE_UID"]);
-if (!$rbac->process()) {
-  http_response_code(500);
-  die('Could not connect to RBAC server.');
-}
-if (!$rbac->has(Permission_AdminPanel_Manage_RolePermissions)) {
-  http_response_code(406);
-  echo "manage-sod: missing correct permission\n";
-  die();
-}
-
 
 $pdo  = ConnectDatabaseIAM();
 $sql  = "SELECT * FROM application ORDER BY title";
