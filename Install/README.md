@@ -148,7 +148,7 @@ Instructies per OS volgen verderop.
 
 ```text
 # Docker RBAC Example
-127.0.0.1	grades.rbac.docker sharepoint.rbac.docker admin.rbac.docker marketing.rbac.docker hrm.rbac.docker portal.rbac.docker
+127.0.0.1	grades.rbac.docker sharepoint.rbac.docker admin.rbac.docker marketing.rbac.docker hrm.rbac.docker portal.rbac.docker portal.rbac.docker
 ```
 
 ### Windows
@@ -291,8 +291,8 @@ Er is tevens een aparte Docker container met een LDAP Administratie website (*PH
 web adres [http://localhost:8080](http://localhost:8080). Deze website is vrij eenvoudig maar bespaart dus wel een 
 installatie van Java en Apache Directory Studio.
 
-* Login DN : cn=admin,dc=NHLStenden,dc=com
-* Password : test12345!
+* Login DN : `cn=admin,dc=NHLStenden,dc=com`
+* Password : `test12345!`
 
 
 De software die je op je laptop kunt installeren is Apache Directory Studio. Een instructie vindt je hier onder.
