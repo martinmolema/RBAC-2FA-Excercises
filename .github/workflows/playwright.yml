@@ -24,6 +24,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Add hosts entries
+        run: |
+          echo "127.0.0.1 grades.rbac.docker sharepoint.rbac.docker admin.rbac.docker marketing.rbac.docker hrm.rbac.docker portal.rbac.docker" | sudo tee -a /etc/hosts
+
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
