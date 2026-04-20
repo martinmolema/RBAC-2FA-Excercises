@@ -1,6 +1,6 @@
 services:
   iam-example-webserver:
-    # In the subfolder ./php/ there is a Dockerfile which can be used to further build the container and RUN scripts
+    # In the subfolder ./php/ there is a docker-compose.yml which can be used to further build the container and RUN scripts
     build: ./webserver/
     container_name: iam-example-webserver
     hostname: webserver
@@ -8,7 +8,14 @@ services:
       - iam-example-db-server
       - iam-example-identity-server
     networks:
-      - iam-example
+      iam-example:
+        aliases:
+          - marketing.rbac.docker
+          - grades.rbac.docker
+          - admin.rbac.docker
+          - hrm.rbac.docker
+          - sharepoint.rbac.docker
+          - portal.rbac.docker
     ports:
       - '80:80'
     expose:
@@ -22,7 +29,7 @@ services:
         target: /var/www/
 
   iam-example-identity-server:
-    # In the subfolder ./php/ there is a Dockerfile which can be used to further build the container and RUN scripts
+    # In the subfolder ./php/ there is a docker-compose.yml which can be used to further build the container and RUN scripts
     build: identity-server/
     container_name: iam-example-identity-server
     hostname: identityserver
@@ -111,6 +118,7 @@ services:
 networks:
   iam-example:
     driver: bridge
+    name: iam-example
 
 volumes:
   mariadb-data:
