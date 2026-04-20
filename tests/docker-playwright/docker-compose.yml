@@ -1,0 +1,30 @@
+# Eventually run
+# - docker compose run --rm playwright bash
+# to run interactively
+#
+
+services:
+  playwright:
+    image: mcr.microsoft.com/playwright:v1.54.1-jammy
+    container_name: playwright-tests
+    working_dir: /app/tests
+    networks:
+      iam-example:
+
+    volumes:
+      - ../playwright:/app
+
+    environment:
+      CI: "true"
+
+    command: >
+      bash -c "
+      npm install &&
+      npx playwright install --with-deps chromium &&
+      npx playwright test
+      "
+
+
+networks:
+  iam-example:
+    external: true
