@@ -14,7 +14,7 @@ jobs:
   playwright:
     defaults:
       run:
-        working-directory: tests
+        working-directory: tests/playwright
 
     name: Run Playwright tests
     runs-on: ubuntu-latest
