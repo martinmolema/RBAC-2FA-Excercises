@@ -14,6 +14,8 @@ en studenten.
 Login bij elke website en noteer welke mogelijkheden de gebruiker heeft. Gebruik onderstaande tabel voor de juiste
 accounts. Vul bij 'Toegang' in welke functionele mogelijkheden je ziet (bijvoorbeeld in de menubalk).
 
+Het wachtwoord van alle account is `Test1234!` voor **alle accounts** in deze oefeningen.
+
 | URL                            | rol       | username   | Toegang |
 |--------------------------------|-----------|------------|---------| 
 | http://marketing.rbac.docker/  | gebruiker | `fbos`     |         | 
