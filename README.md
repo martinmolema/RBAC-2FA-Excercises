@@ -1,7 +1,5 @@
 [![wakatime](https://wakatime.com/badge/user/3338e7f2-83bc-4e0f-8b7a-fa93cdaaf846/project/1351ddc7-c333-4276-949a-97906b0f7dab.svg)](https://wakatime.com/badge/user/3338e7f2-83bc-4e0f-8b7a-fa93cdaaf846/project/1351ddc7-c333-4276-949a-97906b0f7dab)
 
-[![Playwright Tests](https://github.com/martinmolema/RBAC-2FA-Excercises/actions/workflows/playwright.yml/badge.svg)](https://github.com/martinmolema/RBAC-2FA-Excercises/actions/workflows/playwright.yml)
-
 # Welkom
 
 Welkom bij de repository voor de oefeningen rondom het thema Identity & Access Management (IAM). In deze handleiding

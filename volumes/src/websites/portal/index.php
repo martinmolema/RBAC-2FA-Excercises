@@ -14,6 +14,8 @@ include_once 'config/config.inc.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RBAC Login Portal</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 <body>
 <main>
