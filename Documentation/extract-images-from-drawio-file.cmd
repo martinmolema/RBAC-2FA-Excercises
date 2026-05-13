@@ -1,0 +1,1 @@
+python draw-io-export.py -s 2 -f PNG -d images "Diagrammen.drawio" 

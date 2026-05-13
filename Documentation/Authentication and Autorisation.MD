@@ -1,11 +1,16 @@
 # Authenticatie en autorisatie
 
+TODO: In verband met de introductie van een Loginportaal moet onderstaande
+tekst bijgewerkt worden.
+
+----
+
 Hier wordt kort uitgelegd hoe de gemaakte websites omgaan met Authenticatie (wie ben je) en Autorisatie (wat mag je).
 Zie onderstaande diagram en de daar op volgende toelichting.
 
-![Diagrammen - Authentication process.png](images/Diagrammen%20-%20Authentication%20process.png)
+![Diagrammen - Login portal en inloggen.png](images/Diagrammen%20-%20Login%20portal%20en%20inloggen.png)
 
-## 🟡 **Start**
+## **Start**
 
 De gebruiker navigeert naar een beveiligde website of pagina via een browser. Dit is het beginpunt van het proces.
 
@@ -17,12 +22,15 @@ De gebruiker navigeert naar een beveiligde website of pagina via een browser. Di
 
 - De browser stuurt een verzoek naar de webserver.
 - De webserver leidt dit verzoek door naar de website, waar authenticatie vereist is.
-- De website controleert de identiteit van de gebruiker via een authenticatiemechanisme zoals **LDAP** (een centrale
-  gebruikersdatabase).
-- Als de authenticatie mislukt → gebruiker krijgt een **foutmelding**.
-- Als de authenticatie slaagt → door naar autorisatie.
+- Er wordt gecontroleerd of er reeds een geldige login sessie. Dit wordt gedaan op basis van een cookie dat de browser
+eventueel meestuurt.
+- Als de cookie een geldige loginsessie bevat wordt de pagina getoond.
+- Als de cookie ontbreekt of ongeldig is, dan wordt de website omgeleid naar de login portaal.
+- Op de login portaal moet de gebruiker zijn gebruikersnaam & wachtwoord invullen.
+- Deze gebruikersnaam en wachtwoord worden gecontroleerd in de centrale LDAP *account store*.
+- Als de combinatie gebruikersnaam en wachtwoord akkoord zijn wordt 
 
-🟨 *Toelichting:*  
+*Toelichting:*  
 Authenticatie draait puur om **identiteit** — “Wie ben je?”
 
 ---
@@ -35,7 +43,7 @@ Authenticatie draait puur om **identiteit** — “Wie ben je?”
 - Geen toegang? → **Foutmelding**.
 - Wel toegang? → Door naar paginacontrole.
 
-🟨 *Toelichting:*  
+*Toelichting:*  
 Niet elke geauthenticeerde gebruiker mag elke applicatie gebruiken. Denk aan afgeschermde portals voor bepaalde
 afdelingen.
 
@@ -51,7 +59,7 @@ afdelingen.
 - Geen rechten? → **Foutmelding**.
 - Wel rechten? → De gevraagde pagina wordt getoond.
 
-🟨 *Toelichting:*  
+*Toelichting:*  
 Een gebruiker kan toegang hebben tot de site, maar niet tot alle onderdelen ervan. Hier wordt dat verder verfijnd.
 
 ---
@@ -63,7 +71,7 @@ Als alle controles (authenticatie, website-autorisatie én pagina-autorisatie) s
 - Stuurt de webserver de inhoud van de gevraagde pagina terug naar de browser.
 - De gebruiker ziet de pagina in de browser.
 
-🟨 *Toelichting:*  
+*Toelichting:*  
 Pas nu weten we zeker dat de gebruiker **mag inloggen**, **mag werken met deze applicatie** én **deze specifieke pagina
 mag gebruiken**.
 

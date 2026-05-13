@@ -74,6 +74,8 @@ De volgende onderwerpen kunnen geoefend worden met de websites en andere compone
     * inlog pogingen
     * wijzigingen in rollen/permissies/gebruikers
     * user provisioning proces log
+* Multi Factor authentication
+  * Gebruik van authenticator app met TOTP
 
 Voor Software Engineers is er een handleiding om zelf nieuwe permissies toe te voegen.
 
@@ -191,7 +193,6 @@ npx playwright show-report
 
 Natuurlijk zijn er nog meer onderwerpen te implementeren. Deze staan voorlopig nog op de lijst met 'ambities':
 
-* Twee factor authenticatie via TOTP met een Authenticator app, voor bijvoorbeeld de Admin Portal
 * Verdere beveiliging van user input (sanitation).
 * (Meer) automatische tests met Playwright: het automatisch testen van de oefeningen
 
@@ -203,4 +204,4 @@ Docent bij NHL Stenden, opleidingen Bachelor HBO-ICT en Associate Degree Cyber S
 
 [martin.molema@nhlstenden.com](mailto:martin.molema@nhlstenden.com)
 
-Mei 2025
+Mei 2026
